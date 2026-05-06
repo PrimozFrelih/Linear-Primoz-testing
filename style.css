@@ -39,12 +39,12 @@ button {
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  background: #2563eb;
-  color: white;
+  background: #eab308;
+  color: black;
 }
 
 button:hover {
-  background: #1d4ed8;
+  background: #ca8a04;
 }
 
 .todo-item {
@@ -81,3 +81,4 @@ button:hover {
   color: #777;
   margin-top: 12px;
 }
+
