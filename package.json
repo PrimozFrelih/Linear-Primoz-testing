@@ -1,0 +1,16 @@
+{
+  "name": "simple-todo-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "npx serve . -l 3000",
+    "test:e2e": "playwright test",
+    "test:e2e:headed": "playwright test --headed",
+    "test:e2e:ui": "playwright test --ui",
+    "test:e2e:report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.54.0",
+    "serve": "^14.2.3"
+  }
+}
